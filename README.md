@@ -7,7 +7,7 @@ A console C# App that simulates the business logic of a vending machine.
 1.  The vending machine dispenses beverages, candy, chips, and gum.
     - Each vending machine item has a Name and a Price.
 2.  A main menu must display when the software runs, presenting the following options:
-    ![MainMenu](img/MainMenu.png)
+    ![MainMenu](Img/MainMenu.png)
 3.  The vending machine reads its inventory from an input file when the vending machine
     starts.
 4.  The vending machine is automatically restocked each time the application runs.
@@ -15,13 +15,9 @@ A console C# App that simulates the business logic of a vending machine.
     with a list of all items in the vending machine with its quantity remaining: - Each vending machine product has a slot identifier and a purchase price. - Each slot in the vending machine has enough room for 5 of that product. - Every product is initially stocked to the maximum amount. - A product that has run out must indicate that it's SOLD OUT.
 6.  When the customer selects "(2) Purchase", they're guided through the purchasing
     process menu:
-    ![PurchaseMenu](img/PurchaseMenu.png)
+    ![PurchaseMenu](Img/PurchaseMenu.png)
 7.  The purchase process flow is as follows: 1. Selecting "(1) Feed Money" 2. Selecting "(2) Select Product" allows the customer to select a product to
-<<<<<<< HEAD
-    ![ProductList](img/Itemlist.png)
-=======
-    ![ProductList](Img/Item list.png)
->>>>>>> 7fc23ac5e6e87ff5602ba88ab229426276a6b474
+    ![ProductList](Img/Itemlist.png)
 
         purchase.
             - Show the list of products available and allow the customer to enter
