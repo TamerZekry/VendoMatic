@@ -15,9 +15,9 @@ A console C# App that simulates the business logic of a vending machine.
     with a list of all items in the vending machine with its quantity remaining: - Each vending machine product has a slot identifier and a purchase price. - Each slot in the vending machine has enough room for 5 of that product. - Every product is initially stocked to the maximum amount. - A product that has run out must indicate that it's SOLD OUT.
 6.  When the customer selects "(2) Purchase", they're guided through the purchasing
     process menu:
-    ![PurchaseMenu](img/Purchase%20Menu.png)
+    ![PurchaseMenu](img/PurchaseMenu.png)
 7.  The purchase process flow is as follows: 1. Selecting "(1) Feed Money" 2. Selecting "(2) Select Product" allows the customer to select a product to
-    ![ProductList](img/Item%20list.png)
+    ![ProductList](img/Itemlist.png)
 
         purchase.
             - Show the list of products available and allow the customer to enter
