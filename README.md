@@ -17,7 +17,11 @@ A console C# App that simulates the business logic of a vending machine.
     process menu:
     ![PurchaseMenu](img/PurchaseMenu.png)
 7.  The purchase process flow is as follows: 1. Selecting "(1) Feed Money" 2. Selecting "(2) Select Product" allows the customer to select a product to
+<<<<<<< HEAD
     ![ProductList](img/Itemlist.png)
+=======
+    ![ProductList](Img/Item list.png)
+>>>>>>> 7fc23ac5e6e87ff5602ba88ab229426276a6b474
 
         purchase.
             - Show the list of products available and allow the customer to enter
